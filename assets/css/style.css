@@ -11,7 +11,7 @@ body {
 #header {
     background-color: #ffffff;
     width: 100%;
-    height: 80px;
+    height: 100px;
     margin: 0px auto 30px auto;
     border-bottom: 2px #cccccc solid;
     width: 100%;
@@ -19,14 +19,14 @@ body {
 
 h2 {
     background-color: #4aaaa5;
-    width: 200px;
+    width: 18%;
     height: 20px;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 23px;
     font-weight: bolder;
     text-align: center;
-    padding: 30px 0px;
+    padding: 40px;
     float: left;
 }
 .nav {
@@ -171,6 +171,28 @@ button {
         width: 45%;
         margin: 0% 2%;
       }
+    [class*="nav"] {
+        clear: both;
+        width: 100%;
+        height: 2%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    [class*="header"] {
+        width: 100%;
+        height: 10%;
+
+    }
+    h2 {
+        width: 100%;
+        padding: 5% 1%;
+    }
+    [class*="navlink"] {
+        width: 100%;
+        height: 10%;
+        padding-top: 1%;
+    }
 }
 @media only screen and (max-width: 640px) {
     [class*="container"]  {
@@ -185,5 +207,30 @@ button {
         width: 100%;
         margin: 0% 2%;
       }
+      [class*="nav"] {
+        clear: both;
+        width: 100%;
+        height: 2%;
+        margin: 0px;
+        padding: 0px;
+        background-color: white;
+        text-align: center;
+        padding-top: 3%;
+    }
+    [class*="header"] {
+        width: 100%;
+        height: 10%;
+
+    }
+    h2 {
+        width: 100%;
+        padding: 5% 1%;
+    }
+    [class*="navlink"] {
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        padding-top: 1%;
+    }
 }
 
